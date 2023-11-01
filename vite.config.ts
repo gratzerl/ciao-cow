@@ -5,5 +5,12 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
+	},
+	css: {
+		preprocessorOptions: {
+			sass: {
+				additionalData: `@import '$lib/app`
+			}
+		}
 	}
 });
