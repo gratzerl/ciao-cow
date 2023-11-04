@@ -1,6 +1,7 @@
 <script lang="ts">
   import '$lib/app.scss';
   import logo from '$lib/assets/cow.png';
+  export const prerender = true;
 </script>
 
 <style lang="scss">
