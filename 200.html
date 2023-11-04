@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="/ciao-cow/favicon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+		<link rel="modulepreload" href="/ciao-cow/_app/immutable/entry/start.bf84ad2d.js">
+		<link rel="modulepreload" href="/ciao-cow/_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="/ciao-cow/_app/immutable/chunks/singletons.fc13d56c.js">
+		<link rel="modulepreload" href="/ciao-cow/_app/immutable/entry/app.c99a9504.js">
+		<link rel="modulepreload" href="/ciao-cow/_app/immutable/chunks/index.76135fca.js">
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1yrnt30 = {
+						assets: "/ciao-cow",
+						base: "/ciao-cow",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/ciao-cow/_app/immutable/entry/start.bf84ad2d.js"),
+						import("/ciao-cow/_app/immutable/entry/app.c99a9504.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+</body>
+
+</html>
